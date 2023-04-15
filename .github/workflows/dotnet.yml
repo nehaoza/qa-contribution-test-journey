@@ -5,9 +5,9 @@ name: .NET
 
 on:
   push:
-    branches: [ "feat-gha" ]
+    branches: [ "gha" ]
   pull_request:
-    branches: [ "feat-gha" ]
+    branches: [ "gha" ]
 
 jobs:
   build:
